@@ -1,0 +1,57 @@
+.shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 10;
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.link,
+.linkActive {
+  padding: 8px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.link:hover {
+  background: var(--surface);
+}
+
+.linkActive {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.main {
+  padding: 18px;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  padding: 14px 18px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}

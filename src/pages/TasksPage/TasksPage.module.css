@@ -1,0 +1,16 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.spacer {
+  height: 14px;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 13px;
+}

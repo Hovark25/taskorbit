@@ -1,0 +1,14 @@
+.muted {
+  color: var(--muted);
+}
+
+.link {
+  display: inline-flex;
+  margin-top: 8px;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(148, 163, 184, 0.5);
+}
+
+.link:hover {
+  border-bottom-color: rgba(148, 163, 184, 0.9);
+}

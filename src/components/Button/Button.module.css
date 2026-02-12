@@ -1,0 +1,45 @@
+.primary,
+.ghost,
+.danger {
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease;
+  user-select: none;
+}
+
+.primary {
+  background: var(--surface);
+  color: var(--text);
+}
+
+.primary:hover {
+  background: rgba(148, 163, 184, 0.08);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--text);
+}
+
+.ghost:hover {
+  background: var(--surface);
+}
+
+.danger {
+  background: transparent;
+  color: var(--danger);
+  border-color: rgba(251, 113, 133, 0.35);
+}
+
+.danger:hover {
+  background: rgba(251, 113, 133, 0.08);
+}
+
+.primary:disabled,
+.ghost:disabled,
+.danger:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
